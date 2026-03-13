@@ -20,3 +20,11 @@ students.push("David"); // Adding a new student to the end of the array
 console.log(students); // Output: ["Alice", "Bob", "Charlie", "David"]
 students.unshift("David");
 //tabnine peprlexity suggested code
+
+//sort an array
+students.sort();
+console.log(students); // Output: ["Alice", "Bob", "Charlie", "David"]
+
+//remove the last element
+students.pop();
+console.log(students); // Output: ["Alice", "Bob", "Charlie"]
