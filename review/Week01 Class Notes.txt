@@ -1,0 +1,154 @@
+Week01 Review:
+	Topics:
+		Core javaScript
+
+    AI Tools:
+        Perplexity
+        Tabnine/GitHub Copilot
+
+    Asynchronious Programming:
+            Promises
+            Async & Await
+
+Promise: Future Value/Error (50/50)
+
+
+Task01:
+    Step1: promises to give the value
+    Step2
+    Step3
+    Step4
+    Step5
+
+Task02:
+    Step1
+    Step2
+    Step3
+    Step4: Needs the value of task01 ===> await for the promised value
+
+Task03:
+    Step1
+    Step2: Needs the value of task01 ===> await for the promised value
+    Step3
+
+Task04:
+    Step1
+    Step2
+    Step3: Needs the value of tas01 ===> await for the promised value
+    Step4
+
+
+
+NodeJS: 18+
+
+IDE: Eclipse (Java), IntelliJ (Java, JS), PyCharm (Python), Visual Studio (C#),  WebStorm (JS)
+
+Code Editor: VS Code
+
+
+
+Dynamic Typing: JavaScript, Python
+
+    let a;
+
+Static Typing: Java, C#, C++, C, Ruby, TypeScript
+
+    int 
+    double
+    string
+    bool
+    ...
+
+=====================================
+
+
+-------------------------------------------------------
+
+
+Word Break Problem
+Given an input string and a dictionary of words, find out if the input string can be segmented
+into a space-separated sequence of dictionary words. See following examples for more details.
+This is a famous Google interview question, also being asked by many other companies now a days.
+Consider the following dictionary
+	{ i, like, sam, sung, samsung, mobile, ice, cream, icecream, man, go, mango}
+	Input:  ilike
+	Output: Yes
+	The string can be segmented as "i like".
+
+	Input:  ilikesamsung
+	Output: Yes
+	The string can be segmented as "i like samsung" or "i like sam sung".
+
+
+-------------------------------------------------------
+
+Create a function that can Count of substrings having all distinct characters
+        Given a string str consisting of lowercase alphabets, the task is to find the number of possible substrings (not necessarily distinct) that consists of distinct characters only.
+            Examples:
+                Input: Str = “gffg”
+                Output: 6
+        Explanation:
+            All possible substrings from the given string are,
+            ( “g“, “gf“, “gff”, “gffg”, “f“, “ff”, “ffg”, “f“, “fg“, “g” )
+            Among them, the highlighted ones ( “g“, “gf“, “f“, “f“, “fg“, “g” ) consists of distinct characters only.
+
+                Input: str = “gfg”
+                Output: 5
+        Explanation:
+            All possible substrings from the given string are,
+            ( “g“, “gf“, “gfg”, “f“, “fg“, “g” )
+            Among them, the highlighted ( “g“, “gf“, “f“, “fg“, “g” ) consists of distinct characters only.
+
+
+-------------------------------------------------------
+
+class BasePage{
+    ...
+}
+
+class LoginPage extends BasePage{
+
+    usernameInputBox;
+    passwordInputBox;
+    loginButton;
+    ....
+
+
+    enterUsername();
+    enterPassword();
+    clickLoginButton();
+    ...
+
+}
+
+class HomePage extends BasePage{
+
+}
+
+
+test(){
+    LoginPage loginPage = new LoginPage;
+
+    loginPage.enterUsername();
+    loginButton.enterPassword();
+    loginButton.click();
+}
+
+
+test(){
+    LoginPage loginPage = new LoginPage;
+
+    loginPage.enterUsername();
+    loginButton.enterPassword();
+    loginButton.click();
+}
+
+
+
+test(){
+    LoginPage loginPage = new LoginPage;
+
+    loginPage.enterUsername();
+    loginButton.enterPassword();
+    loginButton.click();
+}
